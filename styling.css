@@ -1,0 +1,49 @@
+
+h1{
+    color: blue;
+}
+#apologise{font-family: 'Poppins';
+    text-align: right;
+}
+#navigateButtons{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 25px;
+
+}
+nav{
+    font-family: 'Poppins';
+    color: rgb(177, 228, 235);
+    padding: 6px;
+}
+#mainBadge{
+    font-family: 'Poppins';
+}
+a:link{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+button{
+    display: inline-block;
+    border: 2px solid;
+    font-size:medium;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    text-align: center;
+    border-radius: 4px;
+    background: white;
+    color:rgb(1, 1, 156);
+    transition:all 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    background: blue;
+    color: white;
+}
