@@ -1,33 +1,41 @@
-
+body{
+  background:rgb(234, 253, 255);
+}
 h1{
     color: blue;
 }
 #apologise{font-family: 'Poppins';
     text-align: right;
 }
-#navigateButtons{
-    text-align: center;
+
+nav{
+  font-family: 'Poppins';
+  color: rgb(177, 228, 235);
+  padding: 6px;
+  background:white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 60px;
 }
-nav ul li{
+nav li{
+  padding: 0 20px;
     display: inline-block;
     margin-right: 25px;
+}
 
+.Logo{
+  vertical-align: center;
+  margin-left: 50px;
+  float: left;
+  height: 60px;
+  width: 170px;
 }
-nav{
-    font-family: 'Poppins';
-    color: rgb(177, 228, 235);
-    padding: 6px;
-    background-color: cornflowerblue;
-}
-#mainBadge{
-    font-family: 'Poppins';
-}
+
 a:link{
     text-decoration: none;
-}
-
-body{
-    margin: 0;
 }
 button{
     display: inline-block;
@@ -108,4 +116,9 @@ button {
 
 button:hover {
   border: 2px solid black;
+}
+header{ 
+  margin: 60px;
+  text-align: center;
+  font-family:'Poppins';
 }
